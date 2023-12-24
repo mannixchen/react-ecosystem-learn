@@ -5,7 +5,7 @@ function calculateTotalPrice(
 
   discount: number) {
 
-  const priceWithoutDiscount = product. * quantity;
+  const priceWithoutDiscount = product.unitPrice * quantity;
 
   const discountAmount = priceWithoutDiscount * discount;
 
